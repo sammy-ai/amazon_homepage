@@ -1,0 +1,14 @@
+{
+  "name": "amazon_homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "author": "Sammy-ai",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
