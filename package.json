@@ -9,6 +9,7 @@
   "author": "Sammy-ai",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-icons": "^1.5.0",
     "tailwindcss": "^2.2.4"
   }
 }
