@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sammy_ai.github.io/amazon_homepage",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Sammy-ai",
   "license": "MIT",
   "dependencies": {
     "bootstrap-icons": "^1.5.0",
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^2.2.4"
   }
 }
