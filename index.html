@@ -9,15 +9,130 @@
     <title>Amazon</title>
 </head>
 
-<body class="flex flex-col h-auto w-screen">
+<body class="flex flex-col h-auto w-screen overflow-x-hidden overflow-y-auto">
 
-    <header class="w-screen">
-        <div class="bg-gray-900 flex text-gray-200 flex justify-center w-screen">
-            <a href="" class="h-2 w-20 my-4 mx-2">
-                <img src="img/amazon 2.png" alt="">
+    <header class="w-screen bg-gray-900">
+        <div class="flex w-full">
+            <div class="flex w-1/2 justify-start md:hidden">
+                <div class="bg-gray-900 flex text-gray-300 flex w-full">
+                    <div class="flex newPos">
+                        <nav class="relative w-full text-black font-black capitalize h-screen overflow-y-auto bg-white hidden menu">
+                            <div class="bg-gray-800 px-4 py-6 text-white h-1/6 w-full flex-col">
+                                <div class="flex w-full justify-end items-center">
+                                    <span class="capitalize font-normal">sign in</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 192 512" class="text-white ml-2 w-6 h-6">
+                                        <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                                        <path
+                                            d="M96 0c35.346 0 64 28.654 64 64s-28.654 64-64 64-64-28.654-64-64S60.654 0 96 0m48 144h-11.36c-22.711 10.443-49.59 10.894-73.28 0H48c-26.51 0-48 21.49-48 48v136c0 13.255 10.745 24 24 24h16v136c0 13.255 10.745 24 24 24h64c13.255 0 24-10.745 24-24V352h16c13.255 0 24-10.745 24-24V192c0-26.51-21.49-48-48-48z" />
+                                    </svg>
+                                </div>
+                                <div class="flex-col">
+                                    Browse<p class="font-serif">Amazon</p>
+                                </div>
+                            </div>
+                            <div class="p-4 flex">
+                                amazon home
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-6 h-6 ml-3">
+                                    <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                                    <path
+                                        d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z" />
+                                </svg>
+                            </div>
+                            <div class="p-4 capitalize border-t-4 border-b-4 border-gray-300 flex-col">
+                                trending
+                                <p class="font-normal pt-4">movers &amp; shakers</p>
+                            </div>
+                            <div class="p-4 capitalize">
+                                <p class="py-2">top departments</p>
+                                <p class="py-2 font-normal">home</p>
+                                <p class="py-2 font-normal">health &amp; household</p>
+                                <p class="py-2 font-normal">books</p>
+                                <p class="py-2 font-normal">gaming</p>
+                                <p class="py-2 font-normal">entertainment</p>
+                            </div>
+                            <div class="capitalize border-t-4 border-b-4 border-gray-300 p-4 flex-col">
+                                all departments
+                                <p class="py-2 font-normal">amazon music</p>
+                                <p class="py-2 font-normal">prime video</p>
+                                <p class="py-2 font-normal">books</p>
+                                <p class="py-2 font-normal">echo &amp; alexa</p>
+                                <p class="py-2 font-normal">fire tablets</p>
+                                <p class="py-2 font-normal">fire tv</p>
+                                <p class="py-2 font-normal">kindle</p>
+                                <p class="py-2 font-normal">audible books &amp; originals</p>
+                                <p class="py-2 font-normal">clothing, shoes, jewelry &amp; watches</p>
+                                <p class="py-2 font-normal">electronics</p>
+                                <p class="py-2 font-normal">office &amp; school supplies</p>
+                                <p class="py-2 font-normal">gift cards</p>
+                                <p class="py-2 font-normal">appStore for android</p>
+                                <p class="py-2 font-normal">movies, music &amp; games</p>
+                                <p class="py-2 font-normal">computers</p>
+                                <p class="py-2 font-normal">home, garden &amp; pets</p>
+                                <p class="py-2 font-normal">handmade</p>
+                                <p class="py-2 font-normal">beauty, health &amp; personal care</p>
+                                <p class="py-2 font-normal">food &amp; grocery</p>
+                                <p class="py-2 font-normal">toys, kids &amp; baby</p>
+                                <p class="py-2 font-normal">sports</p>
+                                <p class="py-2 font-normal">outdoors</p>
+                                <p class="py-2 font-normal">automotive &amp; industrial</p>
+                                <p class="py-2 font-normal">home services</p>
+                                <p class="py-2 font-normal">amazon subscription boxes</p>
+                            </div>
+                        </nav>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512" class="w-6 h-6 bars my-2 ml-4 mx-2">
+                            <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                            <path
+                                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                        </svg>
+                        <div class="hidden cross flex justify-center h-24 w-24 rounded-b-full opacity-50 bg-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512"
+                                class="w-6 flex-col opacity-100 my-8 ml-4 transform rotate-45 mx-2 text-white">
+                                <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                                <path
+                                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="" class="h-8 w-8 my-2 mx-2 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512" class="amazon">
+                            <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                            <path
+                                d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="w-1/2 my-2 flex mx-8 justify-end items-center text-white md:hidden">
+                <div class="flex items-center">
+                    <span class="capitalize">sign in</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 512" class="text-white w-2 h-2">
+                        <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                        <path
+                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 192 512" class="text-white w-6 h-6">
+                        <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                        <path
+                            d="M96 0c35.346 0 64 28.654 64 64s-28.654 64-64 64-64-28.654-64-64S60.654 0 96 0m48 144h-11.36c-22.711 10.443-49.59 10.894-73.28 0H48c-26.51 0-48 21.49-48 48v136c0 13.255 10.745 24 24 24h16v136c0 13.255 10.745 24 24 24h64c13.255 0 24-10.745 24-24V352h16c13.255 0 24-10.745 24-24V192c0-26.51-21.49-48-48-48z" />
+                    </svg>
+                </div>
+                <svg class="w-6 h-6 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="bg-gray-900 md:flex text-gray-200 flex-wrap md:flex-nowrap flex justify-center w-full">
+            <a href="" class="h-8 w-8 my-4 mx-4 hidden md:flex text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                    <!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                    <path
+                        d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z" />
+                </svg>
             </a>
 
-            <a href="" class="flex font-thin text-xs  my-2 mx-1 px-4 w-32 rounded hover:border-white border border-gray-900">
+            <a href="" class="md:flex hidden font-thin text-xs my-2 mx-1 px-4 w-32 rounded hover:border-white border border-gray-900">
                 <svg class="w-6 h-6 my-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
@@ -28,45 +143,47 @@
                 </div>
             </a>
 
-            <div class="my-2 md:w-1/2 bg-white text-black border-4 h-12 focus-within:border-yellow-400 rounded">
+            <div class="my-2 md:w-1/2 w-full mx-4 bg-white text-black border-4 rounded-lg border-white h-12 focus-within:border-yellow-400">
                 <form action="" method="post" class="flex">
-                    <select aria-describedby="searchDropdownDescription"
-                        class="nav-search-dropdown w-10 focus-within:border-yellow-400 focus-within:bg-gray-300 searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
-                        data-nav-digest="Xa0GQ+pPQ/tdsV+GmRWeXB8PUD0=" data-nav-selected="0" id="searchDropdownBox" name="url"
-                        style="display: block; top: 2.5px;" tabindex="0" title="Search in" control-id="ControlID-1">
-                        <option selected="selected" value="search-alias=aps">All Departments</option>
-                        <option value="search-alias=arts-crafts-intl-ship">Arts &amp; Crafts</option>
-                        <option value="search-alias=automotive-intl-ship">Automotive</option>
-                        <option value="search-alias=baby-products-intl-ship">Baby</option>
-                        <option value="search-alias=beauty-intl-ship">Beauty &amp; Personal Care</option>
-                        <option value="search-alias=stripbooks-intl-ship">Books</option>
-                        <option value="search-alias=computers-intl-ship">Computers</option>
-                        <option value="search-alias=digital-music">Digital Music</option>
-                        <option value="search-alias=electronics-intl-ship">Electronics</option>
-                        <option value="search-alias=digital-text">Kindle Store</option>
-                        <option value="search-alias=instant-video">Prime Video</option>
-                        <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
-                        <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
-                        <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
-                        <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
-                        <option value="search-alias=deals-intl-ship">Deals</option>
-                        <option value="search-alias=hpc-intl-ship">Health &amp; Household</option>
-                        <option value="search-alias=kitchen-intl-ship">Home &amp; Kitchen</option>
-                        <option value="search-alias=industrial-intl-ship">Industrial &amp; Scientific</option>
-                        <option value="search-alias=luggage-intl-ship">Luggage</option>
-                        <option value="search-alias=movies-tv-intl-ship">Movies &amp; TV</option>
-                        <option value="search-alias=music-intl-ship">Music, CDs &amp; Vinyl</option>
-                        <option value="search-alias=pets-intl-ship">Pet Supplies</option>
-                        <option value="search-alias=software-intl-ship">Software</option>
-                        <option value="search-alias=sporting-intl-ship">Sports &amp; Outdoors</option>
-                        <option value="search-alias=tools-intl-ship">Tools &amp; Home Improvement</option>
-                        <option value="search-alias=toys-and-games-intl-ship">Toys &amp; Games</option>
-                        <option value="search-alias=videogames-intl-ship">Video Games</option>
-                    </select>
+                    <div class="hidden md:flex">
+                        <select aria-describedby="searchDropdownDescription"
+                            class="nav-search-dropdown w-10 focus-within:border-yellow-400 focus-within:bg-gray-300 searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+                            data-nav-digest="Xa0GQ+pPQ/tdsV+GmRWeXB8PUD0=" data-nav-selected="0" id="searchDropdownBox" name="url"
+                            style="display: block; top: 2.5px;" tabindex="0" title="Search in" control-id="ControlID-1">
+                            <option selected="selected" value="search-alias=aps">All Departments</option>
+                            <option value="search-alias=arts-crafts-intl-ship">Arts &amp; Crafts</option>
+                            <option value="search-alias=automotive-intl-ship">Automotive</option>
+                            <option value="search-alias=baby-products-intl-ship">Baby</option>
+                            <option value="search-alias=beauty-intl-ship">Beauty &amp; Personal Care</option>
+                            <option value="search-alias=stripbooks-intl-ship">Books</option>
+                            <option value="search-alias=computers-intl-ship">Computers</option>
+                            <option value="search-alias=digital-music">Digital Music</option>
+                            <option value="search-alias=electronics-intl-ship">Electronics</option>
+                            <option value="search-alias=digital-text">Kindle Store</option>
+                            <option value="search-alias=instant-video">Prime Video</option>
+                            <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
+                            <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
+                            <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+                            <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+                            <option value="search-alias=deals-intl-ship">Deals</option>
+                            <option value="search-alias=hpc-intl-ship">Health &amp; Household</option>
+                            <option value="search-alias=kitchen-intl-ship">Home &amp; Kitchen</option>
+                            <option value="search-alias=industrial-intl-ship">Industrial &amp; Scientific</option>
+                            <option value="search-alias=luggage-intl-ship">Luggage</option>
+                            <option value="search-alias=movies-tv-intl-ship">Movies &amp; TV</option>
+                            <option value="search-alias=music-intl-ship">Music, CDs &amp; Vinyl</option>
+                            <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+                            <option value="search-alias=software-intl-ship">Software</option>
+                            <option value="search-alias=sporting-intl-ship">Sports &amp; Outdoors</option>
+                            <option value="search-alias=tools-intl-ship">Tools &amp; Home Improvement</option>
+                            <option value="search-alias=toys-and-games-intl-ship">Toys &amp; Games</option>
+                            <option value="search-alias=videogames-intl-ship">Video Games</option>
+                        </select>
+                    </div>
                     <label for="search" class="sr-only">Search</label>
-                    <input id="search" class="md:w-screen bg-white text-black rounded px-2">
+                    <input id="search" class="w-full bg-white text-black rounded px-2 placeholder-gray-400" placeholder="Search Amazon">
                     <a href="">
-                        <svg class="w-8 h-10 px-1 bg-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="w-8 h-10 px-1 bg-yellow-400 rounded" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                                 clip-rule="evenodd"></path>
@@ -75,7 +192,7 @@
                 </form>
             </div>
 
-            <a href="" class="flex rounded hover:border-white border border-gray-900 items-center mx-1 my-2">
+            <a href="" class="md:flex hidden rounded hover:border-white border border-gray-900 items-center mx-1 my-2">
                 <select aria-describedby="searchDropdownDescription"
                     class="nav-search-dropdown w-10 focus-within:border-yellow-400 text-black focus-within:bg-gray-300 searchSelect nav-progressive-attribute nav-progressive-search-dropdown"
                     data-nav-digest="Xa0GQ+pPQ/tdsV+GmRWeXB8PUD0=" data-nav-selected="0" id="searchDropdownBox" name="url"
@@ -83,7 +200,7 @@
                     <option selected="selected" value="search-alias=aps">CF</option>
                 </select>
             </a>
-            <a href="" class="flex flex-col rounded hover:border-white border text-left border-gray-900 items-center w-1/6 my-2 ml-1 mr-0">
+            <a href="" class="md:flex hidden flex-col rounded hover:border-white border text-left border-gray-900 items-center w-1/6 my-2 ml-1 mr-0">
                 <span class="capitalize font-thin text-xs">hello, sign in</span>
                 <span class="capitalize text-xs font-bold flex flex-wrap">
                     account & lists
@@ -95,11 +212,11 @@
                     </select>
                 </span>
             </a>
-            <a href="" class="flex  flex-col rounded hover:border-white border border-gray-900 w-1/6 items-center my-2 mx-1">
+            <a href="" class="md:flex hidden flex-col rounded hover:border-white border border-gray-900 w-1/6 items-center my-2 mx-1">
                 <span class="capitalize font-thin text-xs">returns</span>
                 <span class="capitalize text-xs font-bold">& orders</span>
             </a>
-            <a href="" class="hover:border-white rounded flex  my-2 mx-1 border border-gray-900">
+            <a href="" class="hover:border-white rounded md:flex hidden my-2 mx-8 border border-gray-900">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
@@ -107,8 +224,14 @@
                 </svg>
                 <span class="font-bold">Cart</span>
             </a>
+            <div class="my-2 flex mx-4 w-full md:hidden text-sm justify-between">
+                <span class="text-white capitalize mx-1 cursor-pointer">best sellers</span>
+                <span class="text-white capitalize mx-1 cursor-pointer">video</span>
+                <span class="text-white capitalize mx-1 cursor-pointer">livestreams</span>
+                <span class="text-white capitalize mx-1 cursor-pointer">new releases</span>
+            </div>
         </div>
-        <div class="bg-gray-800 text-gray-200 text-sm capitalize flex p-2 w-screen items-center">
+        <div class="bg-gray-800 hidden text-gray-200 text-sm capitalize md:flex p-2 w-screen items-center">
             <div class="hover:border-white mx-1 px-2 rounded border-gray-800 border flex items-center">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 <a href="" class="font-bold">all</a>
@@ -120,6 +243,20 @@
             <a href="" class="hover:border-white mx-1 px-2 rounded font-bold border-gray-800 border">registry</a>
             <a href="" class="hover:border-white mx-1 px-2 rounded font-bold border-gray-800 border">sell</a>
             <a href="" class="flex justify-end hover:border-white mx-1 px-2 font-bold overflow-hidden rounded border-gray-800 border">Amazon's Response to COVID-19</a>
+        </div>
+        <div class="bg-gray-800 w-full md:hidden flex items-center">
+            <a href=""
+                class="flex font-normal my-2 text-white px-4">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+                    </path>
+                </svg>
+                <div class="flex mx-1">
+                    Deliver to <p class="font-bold mx-1">Lesotho</p>
+                </div>
+            </a>
         </div>
         <a href="" class="w-screen">
             <img src="img/big panel cheat.jpg" alt="" class="w-screen">
@@ -183,7 +320,7 @@
                         Sign in for the best experience
                     </span>
                     <a href=""
-                        class="flex hover:opacity-100 w-72 justify-center border-gray-400 md:mb-2 md:px-2 text-xs rounded px-4 py-2 border md:w-72 mt-2 bg-yellow-300 opacity-80 w-36 opacity-85">
+                        class="flex hover:opacity-80 w-72 justify-center border-gray-400 md:mb-2 md:px-2 text-xs rounded px-4 py-2 border md:w-72 mt-2 bg-yellow-300 w-36">
                         Sign in securely
                     </a>
                 </span>
@@ -194,7 +331,7 @@
         </div>
 
         <div class="flex sm:w-full md:w-1/2 lg:w-1/4">
-            <div class="flex flex-col p-2 items-center justify-center w-full m-2 bg-white">
+            <div class="flex flex-col p-2 items-center justify-center w-full m-2 bg-gray-200">
                 Oculus
                 <a href="" class="p-2">
                     <img src="img/oculus.jpg" alt="" class="h-72">
@@ -328,7 +465,7 @@
 
     <footer class="flex flex-col w-screen">
         <div class="mt-12 flex justify-center pt-2 pb-4 border-t border-gray-200">
-            <a href="" class="bg-yellow-300 hover:opacity-100 opacity-80 rounded border border-gray-400 mt-2 text-xs shadow-lg mb-4 px-2 py-1">
+            <a href="" class="bg-yellow-300 hover:opacity-80 rounded border border-gray-400 mt-2 text-xs shadow-lg mb-4 px-2 py-1">
                 Sign in to see more personalized recommendations
             </a>
         </div>
@@ -336,7 +473,7 @@
             Back to top
         </a>
 
-        <div class="md:px-64 flex text-gray-300 text-xs justify-between w-screen p-4 bg-gray-800 h-80">
+        <div class="lg:px-64 flex text-gray-300 text-xs justify-between flex-wrap w-screen p-4 bg-gray-800 h-80">
             <div class="flex flex-col m-2">
                 <span class="font-bold">
                     Get to Know Us
@@ -386,8 +523,8 @@
                 <a href="" class="hover:underline text-xs capitalize pt-2"></a>
             </div>
         </div>
-        <div class="flex justify-center text-gray-300 w-screen border-t bg-gray-800 border-gray-600 p-8">
-            <a href="" class="px-8">
+        <div class="flex justify-center text-gray-300 w-screen border-t bg-gray-800 border-gray-600 py-8 md:p-8 ">
+            <a href="" class="">
                 <div class="nav-logo-base nav-sprite"></div>
             </a>
             <a href="" class="mx-1 px-2 border border-gray-500 rounded">language</a>
@@ -395,8 +532,8 @@
             <a href="" class="mx-1 px-2 border border-gray-500 rounded">country</a>
         </div>
 
-        <div class="md:px-64 bg-gray-900 tracking-tighter justify-around p-4 text-gray-300 w-screen text-xs flex">
-            <div class="flex-col px-4 flex w-screen justify-between">
+        <div class="lg:px-64 bg-gray-900 tracking-tighter p-4 text-gray-300 w-screen text-xs flex flex-wrap">
+            <div class="flex-col px-4 mx-2 flex lg:w-1/7 w-1/4 justify-between">
                 <a href="" class="flex flex-col p-2 hover:underline capitalize">
                     <span class="text-sm font-bold">
                         amazon music
@@ -438,7 +575,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 px-4 w-1/4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         amazon advertising
@@ -484,7 +621,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 w-1/4 px-4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         amazon drive
@@ -526,7 +663,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 px-4 w-1/4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         6pm
@@ -569,7 +706,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 px-4 w-1/4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         abeBooks
@@ -611,7 +748,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 px-4 w-1/4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         aCX
@@ -653,7 +790,7 @@
                     </span>
                 </a>
             </div>
-            <div class="flex-col px-4 flex w-screen justify-between">
+            <div class="flex-col mx-2 w-1/4 px-4 flex lg:w-1/7 justify-between">
                 <a href="" class="flex flex-col hover:underline p-2 capitalize">
                     <span class="text-sm font-bold">
                         alexa
@@ -704,6 +841,7 @@
             &copy; 1996-2021, Amazon.com, Inc. or its affiliates
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
